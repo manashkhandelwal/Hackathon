@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <style>
+      body{
+        font-family:Itim;
+        background-color: rgb(223, 247, 231);
+        
+      }
+      .logo{
+
+        width:80%;
+        margin-left: 40px;
+      }
+      .header{
+        width:200px;
+        display:flex;
+        flex-direction: row;
+        justify-content :center;
+      }
+      .site-name{
+        margin-top: 50px;
+        font-size: 30px;
+        white-space: nowrap;
+      }
+      .middle{
+        display: flex;
+        flex-direction: row;
+       margin-left: 20px;
+       align-items: left;
+        
+      }
+      .search-bar{
+        
+         width: 50%;
+         height: 38px;
+         background: white; 
+         border-radius: 20px; 
+         border: 1px black solid;
+         padding: 3px 0 3px 10px;
+         font-size: 21px;
+         
+      }
+      .search-bar::placeholder{
+        font-size: 21px;
+        vertical-align: center;
+        
+        
+      }
+      .search-button{
+       
+        width: 50px; 
+        height: 48px; 
+        background: #C0FAD4; 
+        border-radius: 25px; 
+        border: 1px black solid;
+        
+      }
+      .search-button:active{
+        background-color:#DFF7E7 ;
+      }
+      .search-button img{
+        height: 20px;
+      }
+      .tag-line{
+        font-size:20px;
+        margin-bottom:30px;
+      }
+      .categories{
+        width: 140px;
+        height: 45px;
+        border-radius: 25px;
+        margin-top: 40px;
+        background-color: #C0FAD4;
+        font-family: Itim,Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        margin-left: 50px;
+      }
+      .down-chevron{
+        width: 18px;
+        justify-content: center;
+      }
+
+
+    </style>
+
+  </head>
+  <body>
+    
+    <div style="margin-left: 500px;
+    ">
+    <div  class ="header" style="flex:1">
+      <img class="logo" src="Icon.png" >
+      <div class="site-name">UNI&ndash;Verse</div>
+    </div>
+    <div class="tag-line">
+      Welcome to student project platform.
+    </div>
+    <div  claas="middle" style="flex:2">
+      <input class="search-bar" type="text" placeholder="Search">
+      <button class="search-button">
+        <img src="search.png">
+      </button>
+
+    </div>
+    <button class="categories"><img class="down-chevron" src="down-chevron 1.png">Topic</button>
+    <button class="categories"><img class="down-chevron" src="down-chevron 1.png">University</button>
+  
+  </body>
+</html>

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&family=Itim&display=swap" rel="stylesheet">
+        <style>
+            header{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                height: 100px;
+                justify-content: space-between;
+                border-bottom: 3px solid black;
+            }
+            .left_section{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                font-size: 17px;
+                font-family: Itim;
+            }
+            .icon{
+                width: 100px;
+            }       
+            header nav a {
+                margin: 10px;
+                padding: 8px 15px;
+                border-radius: 5px;
+                text-decoration: none;
+                font-size: 30px;
+                display: inline-block;
+                font-family: Itim,Arial, Helvetica, sans-serif;
+                color: black;
+            }
+            header nav a:hover {
+                background-color: #DFF7E7;
+                cursor: pointer;
+
+            }
+            .right_section{
+                display: flex;
+                flex-direction: row;   
+            }
+            .search-bar {
+                
+                height: 40px;
+                border-radius: 18px;
+                padding-left: 10px;
+                font-size: 16px;
+                background-color: #DFF7E7;
+                width: 140px;
+            }
+
+            
+            
+            .sidebar_left {
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                top: 110px;
+                background-color: white;
+                width: 72px;
+                padding-top: 5px;
+                border-right: 3px solid rgb(0, 0, 0);
+            }
+
+            .sidebar-link {
+                height: 74px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                cursor: pointer;
+            }
+
+            .sidebar-link:hover {
+                background-color: rgb(235, 235, 235);
+            }
+
+            .sidebar-link img {
+                height: 30px;
+                margin-bottom: 4px;
+            }
+            .sidebar_right{
+                position: absolute;
+                right: 0;
+                bottom: 0;
+                top: 110px;
+                width: 300px;
+                padding-top: 5px;
+                border-left: 3px solid rgb(0, 0, 0);
+                padding-left: 10px;
+
+            }
+            .note_pad{
+                background-color: #DFF7E7;
+                border: none;
+                padding: 10px 5px 250px 15px;
+                width: 275px;
+                border-radius: 15px;
+                text-align: center;
+                font-family: Itim, Arial, Helvetica, sans-serif;
+                font-size: 16px;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="left_section">
+                <img class="icon" src="Icon.png">
+                <p>UNI-Verse</p>
+            </div>
+            <nav class="middle_section">
+                <a href="Home_page.html">Home</a>
+                <a>Your Projects</a>
+                <a>Bookmarks</a>
+                <a>Profile</a>
+            </nav>
+            <div class="right_section"> 
+                <a href="1.html"><button class="search-bar">Collab With...</button></a>
+            </div>
+            
+        </header>
+        <nav class="sidebar_left">
+            <div class="sidebar-link">
+                <a href="bennett.html">
+                    <img src="College_icons/bennett.png">
+                </a>
+              
+            </div>
+            <div class="sidebar-link">
+                <a href="iiitd.html">
+                    <img src="College_icons/iiitd.png">
+                </a>
+              
+            </div> 
+            <div class="sidebar-link">
+                <a href="vit.html">
+                    <img src="College_icons/vit.png">
+                </a>
+            </div>
+           
+        </nav>
+      
+        
+        
+    </body>
+</html>

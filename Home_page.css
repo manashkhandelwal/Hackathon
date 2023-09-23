@@ -1,0 +1,151 @@
+header{
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+    justify-content: space-between;
+}
+.left_section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 17px;
+    font-family: Itim;
+
+}
+.icon{
+    width: 100px;
+}
+.right_section,.news_pp{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    align-items: center;
+}
+.news_pp{
+    padding-right: 25px;
+    border-right: 3px solid gray;
+}
+.public_projects,.news{
+    display: inline-block;
+    display: grid;
+    grid-template-rows:40px 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.public_projects_icon,.news_icon{
+    height: 30px;
+    padding-left: 4px;
+    
+}
+.public_projects_text,.news_text{
+    display: inline-block;
+    margin:0;
+    font-size: 10px;
+    text-align: center;
+    padding: 5px 5px 5px 5px; 
+}
+.news_icon{
+    height:40px
+}
+.sign_up{
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background: #DFF7E7;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    
+
+}
+.ccc{
+    display:grid;
+    grid-template-columns:70px 70px 70px ;
+    gap: 80px;
+    margin-top: 70px;
+    margin-bottom: 40px;
+    
+}
+.ccc div{
+    border: solid;
+    border-radius:18px ;
+    border: 1px solid black;
+    height: 30px;
+    width: 110px;
+    text-align: center;
+    padding-top: 8px;
+    margin-left:540px;
+    background-color: #DFF7E7;
+    font-weight: 400;
+    font-family: Itim;
+
+}
+.line1{
+    
+    content:" ";
+    height: 2px;
+    width: 39px;
+    background:black;
+    display: block;
+    position: absolute;
+    top: 150px;
+    left:660px
+}
+.line2{
+    
+    content:" ";
+    height: 2px;
+    width: 39px;
+    background:black;
+    display: block;
+    position: absolute;
+    top: 150px;
+    left:809px
+
+}
+.login{
+    font-size: 34px;
+    font-family: Itim;
+    padding-left:707px ;
+    margin: 0;
+}
+
+.body{
+    display: grid;
+    grid-template-columns:350px 350px ;
+    column-gap: 400px;
+    justify-content: center;
+}
+.student,.teacher{
+    height: 300px;
+    width: 300px;
+    border-radius:150px ;
+    background-color: rgb(255, 255, 255);
+}
+.student:hover,.teacher:hover{
+    background-color:  #DFF7E7;
+    transition: background-color 0.25s;
+    cursor: pointer;
+}
+.student_icon,.teacher_icon{
+    width: 160px;
+    
+}
+.student .Tag,.teacher .Tag{
+    opacity: 0;
+    transition: opacity 0.25s;
+    font-family: Itim;
+    font-size: 22px;
+}
+.student:hover .Tag,.teacher:hover .Tag{
+    opacity: 1;
+    cursor: pointer;
+    
+}
+.profession{
+    display: grid;
+    grid-template-columns: 320px 320px;
+    gap: 400px;   
+}
+               

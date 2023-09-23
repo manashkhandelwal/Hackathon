@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&family=Itim&display=swap" rel="stylesheet">
+        <style>
+            header{
+                display: flex;
+                flex-direction: row;
+                align-items: end;
+                height: 100px;
+                justify-content: space-between;
+                border-bottom: 3px solid black;
+            }
+            .left_section{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                font-size: 17px;
+                font-family: Itim;
+            }
+            .icon{
+                width: 100px;
+            }       
+            nav a {
+                margin: 10px;
+                padding: 8px 15px;
+                border-radius: 5px;
+                text-decoration: none;
+                font-size: 32px;
+                display: inline-block;
+                font-family: Itim,Arial, Helvetica, sans-serif;
+                color: black;
+            }
+            header nav a:hover {
+                background-color: #DFF7E7;
+                cursor: pointer;
+
+            }
+            .right_section{
+                display: flex;
+                flex-direction: row;
+                margin-bottom: 16px;    
+            }
+            .search-bar {
+                
+                height: 40px;
+                border-radius: 18px;
+                padding-left: 10px;
+                font-size: 16px;
+                background-color: #DFF7E7;
+                width: 140px;
+            }
+
+            
+            .sidebar_left {
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                top: 110px;
+                background-color: white;
+                width: 72px;
+                padding-top: 5px;
+                border-right: 3px solid rgb(0, 0, 0);
+            }
+
+            .sidebar-link {
+                height: 74px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                cursor: pointer;
+            }
+
+            .sidebar-link:hover {
+                background-color: rgb(235, 235, 235);
+            }
+
+            .sidebar-link img {
+                height: 30px;
+                margin-bottom: 4px;
+            }
+            .sidebar_right{
+                position: absolute;
+                right: 0;
+                bottom: 0;
+                top: 110px;
+                width: 300px;
+                padding-top: 5px;
+                border-left: 3px solid rgb(0, 0, 0);
+                padding-left: 10px;
+
+            }
+            .note_pad{
+                background-color: #DFF7E7;
+                border: none;
+                padding: 10px 5px 250px 15px;
+                width: 275px;
+                border-radius: 15px;
+                text-align: center;
+                font-family: Itim, Arial, Helvetica, sans-serif;
+                font-size: 16px;
+                
+            }
+            main{
+                position: relative;
+                background-color: #DFF7E7;
+                left: 85px;
+                top: 22px;
+                width: 1100px;
+                height: 600px;
+                border-radius: 50px;  
+            }
+            .add_button{
+                height: 50px;
+                border-radius: 25px;
+                background-color: #c0fad4;
+                position: absolute;
+                bottom: 10px;
+                right: 20px;
+                border: 3px solid #C0FAD4;
+            }
+            .about{
+                position: absolute;
+                left: 50px;
+                top: 50px;
+                width: 1000px;
+                height:350px;
+                border-radius: 30px;
+                background-color: white;
+               
+            }
+            .pp{
+                height:50px;
+                width: 50px;
+                border-radius: 25px;
+                margin-left: 25px;   
+                margin-top: 20px; 
+            }
+            .pic{
+                display: inline-block;
+                align-items: center;
+            }
+            
+            .name{
+                display: inline-block;
+                font-family: Itim;
+                margin: 0;
+                line-height: 0px; 
+                vertical-align: center;
+            }
+            .img{
+                height: 42px;
+                position: absolute;
+                bottom: 10px;
+                right: 90px;
+            }
+            .attach{
+                height: 42px;
+                position: absolute;
+                bottom: 10px;
+                right: 20px;
+            }
+            .img_icon{
+                height: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="left_section">
+                <img class="icon" src="Icon.png">
+                <p>UNI-Verse</p>
+            </div>
+            <nav class="middle_section">
+                <a href="Home_page.html">Home</a>
+                <a>Your Projects</a>
+                <a>Bookmarks</a>
+                <a>Profile</a>
+            </nav>
+            <div class="right_section"> 
+                <a href="1.html"><button class="search-bar">Collab With...</button></a>
+            </div>
+            
+        </header>
+        <nav class="sidebar_left">
+            <div class="sidebar-link">
+                <a href="bennett.html">
+                    <img src="College_icons/bennett.png">
+                </a>
+              
+            </div>
+            <div class="sidebar-link">
+                <a href="iiitd.html">
+                    <img style="background-color: rgb(240, 240, 240)" src="College_icons/iiitd.png">
+                </a>
+              
+            </div> 
+            <div class="sidebar-link">
+                <a href="vit.html">
+                    <img src="College_icons/vit.png">
+                </a>
+            
+        </nav>
+        <div class="sidebar_right">
+            <form>
+                <textarea rows = "5" cols = "50" class="note_pad">
+                Public Projects
+                </textarea>
+             </form>
+           
+        </div>
+        <main>
+            <div class="about">
+                <div class="pic">
+                    <img class="pp" src="puneet.png">
+                </div>
+                <div class="name">    
+                    <p>Accha,</p>
+                    <p>Student</p>
+                </div>
+                <p>Tu rokega mereko</p>
+                <button class="img"><img class="img_icon" src="img.png"></button>
+                <button class="attach"><img class="img_icon" src="attach.png"></button>
+            </div>
+                
+            <button class="add_button"><img src="+.png"></button>
+
+        </main>
+        
+        
+    </body>
+</html>
